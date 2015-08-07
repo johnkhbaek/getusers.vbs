@@ -19,7 +19,7 @@ ElseIf Wscript.Arguments.Count = 3 Then
 	user = WScript.Arguments.Item(1)
 	pass = WScript.Arguments.Item(2)
 Else
-	Wscript.Echo "usage: getusers.vbs <computer> (<user> <pass>)"
+	Wscript.Echo "usage: cscript getusers.vbs <computer> (<user> <pass>)"
 	Wscript.Quit 1
 END If
 
